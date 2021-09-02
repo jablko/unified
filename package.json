@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "scripts": {
+    "postinstall": "npm link && npm link --ignore-scripts root",
+    "test": "prettier --check . && eslint --report-unused-disable-directives ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.24.2",
+    "prettier": "^2.3.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

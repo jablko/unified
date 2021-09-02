@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc --build",
+    "test": "remark"
+  },
+  "devDependencies": {
+    "@types/mdast": "^3.0.10",
+    "@types/unist": "^2.0.6",
+    "remark-cli": "^10.0.0",
+    "unified": "^10.1.0"
+  }
+}
